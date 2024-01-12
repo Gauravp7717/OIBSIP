@@ -1,0 +1,86 @@
+html{
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: url(GD.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding-top:200px; 
+
+}
+
+h1{
+    color: rgb(150, 208, 226);
+    font-weight: 900;
+}
+
+
+.container {
+    width: 100%;
+    backdrop-filter: blur(15px);
+    /* background: rgba(255, 255, 255, 0.9); */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px
+    , rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17)
+     0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+label{
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+.input-unit {
+    display: flex;
+    justify-content: space-between;
+}
+.input-unit label {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.input-unit input[type="radio"] {
+    margin-right: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-weight: 700;
+
+}
+div#result.result{
+    color: aliceblue;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+s

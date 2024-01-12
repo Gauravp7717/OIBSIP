@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color :#0ef;
+
+  
+    
+}
+html{
+    font-size: 61.5%;
+    overflow: auto;
+
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+ 
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    /* border: 1px var(--main-color) solid; */
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+
+}
+
+.navbar a {
+    font-size: 1.9rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+ 
+
+
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+
+}
+
+.home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  
+   
+ 
+}
+
+ .home-content h3{
+    font-size: 3.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+ }
+
+ .home-content h3 :nth-of-type(2) {
+    margin-bottom: 2rem;
+ }
+
+ span {
+    color: var(--main-color);
+
+ }
+
+ .home-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+
+ }
+
+ .home-content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+ }
+
+ .btn {
+   display: inline-block;
+   padding: 1rem 2.8rem;
+   background: var(--main-color);
+   border-radius: 4rem;
+   box-shadow: 0 0 2rem var(--main-color);
+   font-size: 1.6rem;
+   color: var(--second-bg-color);
+   letter-spacing: .1rem;
+   font-weight: 600;
+   transition: box-shadow .5s ease; /* Fix the transition property */
+}
+
+.btn:hover {
+   box-shadow: 0 0 2rem seashell; /* Update the box-shadow value */
+}
+ 
+
+
+/* this is about the about page  */
+
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+
+ }
+
+ .about-img {
+    width: 30vw;
+ }
+
+ .heading {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 5rem;
+ }
+
+ .about-content h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    line-height: 1.2;
+
+ }
+
+ .about-content h3{
+    font-size: 3rem;
+
+ }
+
+ .about-content p {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem 0 3rem;
+    font-weight: 700;
+    line-height: 1.3;
+
+ }
+
+
+ /* this is about the serviece page */
+
+ .services h2 {
+   margin-bottom: 2rem;
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ .services-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 3rem;
+   transition: .5s ease;
+   flex-direction: row;
+ }
+
+.services-container :hover {
+   border-color: var(--main-color);
+   transform: scale(1.1);
+}
+
+ .services-container .services-box {
+   flex: 0 0 35rem;
+   background: var(--second-bg-color);
+   padding: 3rem 2rem 4rem;
+   border-radius: 6rem;
+   text-align: center;
+   border: .5rem solid var(--bg-color);
+   transition: .5s ease;
+  
+ }
+
+ .services-container .services-box :hover {
+   border-color: var(--main-color);
+   transform: scale(1.02);
+ }
+
+ .services-box h3{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.8rem;
+
+ }
+
+ .services-box i{
+   font-size: 4rem;
+   color: var(--main-color);
+ }
+
+ .services-box p {
+   font-size: 1.2rem;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 1rem 0 2rem;
+
+ }
+
+
+
+ /*  education section  */
+
+ .tab{
+  display: flex;
+}
+
+.Education{
+  background: var(--second-bg-color);
+  
+}
+
+ .Education h2 {
+  margin-bottom: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Education-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  transition: .5s ease;
+  flex-direction: row;
+  margin-top: 45px;
+}
+
+.Education-container :hover {
+  border-color: var(--main-color);
+  transform: scale(1.05);
+}
+
+.Education-container .Education-box {
+  flex: 0 0 35rem;
+  background: var(--second-bg-color);
+  padding: 25px;
+  border-radius: 5rem;
+  text-align: center;
+  border: .5rem solid var(--bg-color);
+  transition: .5s ease;
+  height: 250px;
+  line-height: 35px;
+
+ 
+}
+
+
+.Education-container .Education-box :hover {
+  border-color: var(--main-color);
+  transform: scale(0.9);
+}
+
+.Education-box h3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+
+}
+
+.Education-box i{
+  font-size: 4rem;
+  color: var(--main-color);
+}
+
+.services-box p {
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 1rem 0 2rem;
+
+}
+
+
+
+ /* project */
+
+
+
+
+
+
+ /* footer section*/
+
+ footer{
+   background-color: var(--second-bg-color);
+   height: 300px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+  
+      
+   
+ }
+
+
+ footer .col1{
+   font-size: 20px;
+   font-weight: 700;
+   padding-top: 75px;
+ }
+ footer .col2{
+   font-size: 20px;
+   font-weight: 700;
+   padding-top: 75px;
+   flex-direction: column;
+ }
+.d{
+   font-size: 14px;
+   font-weight: 700;
+   display: flex;
+   flex-direction: column;
+ }
+
+
+

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color :#0ef;
+
+  
+    
+}
+html{
+    font-size: 61.5%;
+    overflow: auto;
+
+}
+
+body{
+    /* background: var(--bg-color); */
+    background-color: black;
+    color: var(--text-color);
+
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+    background: url(vkk.jpg) no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+ 
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    /* border: 1px var(--main-color) solid; */
+}
+
+.logo {
+    font-size: 3rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+
+}
+
+.navbar a {
+    font-size: 1.9rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+ 
+
+
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+
+}
+
+.home {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  
+   
+ 
+}
+
+ .home-content h3{
+    font-size: 3.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+ }
+
+ .home-content h3 :nth-of-type(2) {
+    margin-bottom: 2rem;
+ }
+
+ span {
+    color: var(--main-color);
+
+ }
+
+ .home-content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.3;
+
+ }
+
+ .home-content p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+ }
+
+ .btn {
+   display: inline-block;
+   padding: 1rem 2.8rem;
+   background: var(--main-color);
+   border-radius: 4rem;
+   box-shadow: 0 0 2rem var(--main-color);
+   font-size: 1.6rem;
+   color: var(--second-bg-color);
+   letter-spacing: .1rem;
+   font-weight: 600;
+   transition: box-shadow .5s ease; /* Fix the transition property */
+}
+
+.btn:hover {
+   box-shadow: 0 0 2rem seashell; /* Update the box-shadow value */
+}
